@@ -1,0 +1,33 @@
+# Temporales
+*.log           # todos los archivos que terminen en .log (en cualquier carpeta)
+*.tmp           # todos los archivos que terminen en .tmp
+*.temp          # todos los archivos que terminen en .temp
+*~              # cualquier archivo que termine en ~ (backups de editores)
+*.bak           # todos los archivos que terminen en .bak
+*.swp           # archivos swap de vim
+.DS_Store       # archivo oculto de macOS en cada carpeta
+Thumbs.db       # miniaturas que crea Windows
+
+# Carpetas de compilación
+/build/         # carpeta build en la raíz(no afecta subcarpetas llamadas build/)
+
+# Archivos generados por CMake
+CMakeFiles/         # cualquier carpeta llamada CMakeFiles (en cualquier nivel)
+CMakeCache.txt      # archivo de caché que genera CMake
+cmake_install.cmake # script que genera CMake para instalación
+CTestTestfile.cmake # archivo de tests generado por CTest
+install_manifest.txt# lista de archivos instalados por CMake
+build.ninja         # archivo de configuración de Ninja
+*.ninja_deps        # cualquier archivo que termine en .ninja_deps (Ninja dependencias)
+*.ninja_log         # cualquier archivo que termine en .ninja_log (Ninja logs)
+
+# Ignorar todas las librerías compiladas
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.exe
+
+# PERO no ignorar las que yo meta en mi carpeta de librerías
+!/librerias/**

@@ -1,0 +1,17 @@
+___CONSOLA_________________
+cd /c/Proyectos                           |	✩ Te mueves hacia la ruta definida
+pwd                                       |	Muestra la ruta del directorio actual
+ls								 	      | Muestra los doc del directorio actual
+
+___CMakeLists.txt__________
+cmake_minimum_required(VERSION 4.1.1)     | ✩ Version de CMake minima 
+project(Pruebacmake LANGUAGES CXX)        | ✩ Informacion del proyecto
+add_executable(Ejecutable main.cpp)       | ✩ Nombre del binario Fuentes 
+
+___COMPILAR________________
+cmake -S . -B build                       | 1.Prepar el Proyecto
+cmake --build build                       | 2.Compila el proyecto
+./build/Ejecutable.exe                    | 3.Ejecuta el ejecutable         
+
+___DLL_____________________				  
+ldd build/hola_compiled.exe               |	Comprueba que librerias necesita
