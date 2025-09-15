@@ -1,0 +1,3 @@
+C:/Proyectos/Pruebacmake/build/CMakeFiles/Ejecutable.dir
+C:/Proyectos/Pruebacmake/build/CMakeFiles/edit_cache.dir
+C:/Proyectos/Pruebacmake/build/CMakeFiles/rebuild_cache.dir
