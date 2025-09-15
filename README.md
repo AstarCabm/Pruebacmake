@@ -29,7 +29,7 @@ Incluye un ejemplo básico (`Hello World`) y documentación de los comandos util
 <summary>Mostrar pasos de compilación</summary>
 
 1. Abrir la terminal MSYS2 en la raíz del proyecto.
-2. cmake -S . -B build                       | 1.Prepar el Proyecto
-3. cmake --build build                       | 2.Compila el proyecto
-4  ./build/Ejecutable.exe                    | 3.Ejecuta el ejecutable 
+2. cmake -S . -B build → Prepara el proyecto para compilar
+3. cmake --build build → Compila en la carpeta build
+4  ./build/Ejecutable.exe  → ejecuta el fichero.exe
 </details>
